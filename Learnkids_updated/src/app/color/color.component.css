@@ -1,0 +1,16 @@
+.m1{
+    background-image: url('../../assets/colorback.jpg');
+    padding: 8px;
+    background-repeat: no-repeat;
+    /* background-color: Transparent; */
+    padding: 5%; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+p{
+    position: absolute;
+    white-space: nowrap;
+    animation: floatText 5s infinite alternate ease-in-out;
+}

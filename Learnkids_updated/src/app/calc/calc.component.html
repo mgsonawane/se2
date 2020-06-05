@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <div class="m2" align='middle'>
+            <b style="color: crimson;"> Form your tables using  Addition  .......</b>><br>
+             Enter number1:: <input type='number' #val11 required><img src="../../assets/add.jpg" style="height: 25px;width: 50px;">
+             Enter number2:: <input type='number' #val22 required><br>
+             Your answer <input type='number' required #val33 >
+             <input type='submit' value='submit' (click)='sendadd(val11.value,val22.value,val33.value)'>
+        </div>
+        <div class="m2" align='middle'>
+            <b style="color: crimson;"> welcome to subtraction  .......</b>><br>
+             Enter number1:: <input type='number' #vall1 required><img src="../../assets/min.jpg" style="height: 25px;width: 50px;">
+             Enter number2:: <input type='number' #vall2 required><br>
+             Your answer <input type='number' required #vall3 >
+             <input type='submit' value='submit' (click)='sendm(vall1.value,vall2.value,vall3.value)'>
+        </div>
+        <div class="m1" align='middle'>
+            <b style="color: crimson;"> Form your tables using  multiplication .......</b>><br>
+             Enter number1:: <input type='number' #val1 required><img src="../../assets/mult.png" style="height: 25px;width: 50px;">
+             Enter number2:: <input type='number' #val2 required><br>
+             Your answer <input type='number' required #val3 >
+             <input type='submit' value='submit' (click)='send(val1.value,val2.value,val3.value)'>
+           </div>   
+        <div class="m2" align='middle'>
+            <b style="color: crimson;"> welcome to division  .......</b>><br>
+             Enter number1:: <input type='number' #vall required><img src="../../assets/div.gif" style="height: 25px;width: 50px;">
+             Enter number2:: <input type='number' #valll required><br>
+             Your answer <input type='number' required #val >
+             <input type='submit' value='submit' (click)='sendd(vall.value,valll.value,val.value)'>
+        </div>
+        <img src="../../assets/homw.jpeg" style="width: 50px;height: 60px;" align="right" (click)='homee()'>
+    </body>
+    <router-outlet></router-outlet>
+</html>

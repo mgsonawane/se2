@@ -1,0 +1,20 @@
+.m1{
+    background-image: url('../../assets/back`.jpg');
+    background-repeat: no-repeat;
+    /* background-color: Transparent; */
+    padding: 6%; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.m2{
+    background-image: url('../../assets/back`.jpg');
+    background-repeat: no-repeat;
+    /* background-color: Transparent; */
+    padding: 6%; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
